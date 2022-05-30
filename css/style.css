@@ -21,7 +21,7 @@ body {
 }
 
 .wave {
-  background-image: url('img/wave.svg');
+  background-image: url('/img/wave.svg');
   background-repeat: no-repeat;
   height: 422px;
   width: 100%;
@@ -97,8 +97,20 @@ body {
 
 .invalid {
   background-color: red;
+  font-size: 2rem;
 }
 
 .valid {
   background-color: green;
+  font-size: 2rem;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+}
+
+.result img {
+  width: 40%;
+  margin: 3rem auto 1rem;
 }
